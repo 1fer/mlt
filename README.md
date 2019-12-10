@@ -24,11 +24,10 @@ $videoProcessing = new Andchir\VideoProcessing([
 $videoProcessing
     ->setProfile('hdv_720_25p')
     ->addOption(['joinClips' => [
-        $rootPath . '/uploads/tmp/Social.mp4',
+        $rootPath . '/uploads/tmp/Cat.mp4',
         $rootPath . '/uploads/tmp/Dog.mp4',
-        $rootPath . '/uploads/tmp/Swans.mp4'
     ]])
-    ->setOutputVideoOptions($rootPath . '/uploads/tmp/out1.mp4');
+    ->setOutputVideoOptions($rootPath . '/uploads/tmp/CatDog.mp4');
     
 $videoProcessing->render();
 ~~~
