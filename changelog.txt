@@ -1,0 +1,10 @@
+
+Changelog
+
+1.3
+- Added profiles for 24 fps video.
+- Small improvements in code.
+
+1.2
+- Added method getClipProperties().
+- Added an example of creating a video slides show from static images.

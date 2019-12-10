@@ -1,0 +1,71 @@
+[
+    {
+        "name": "roave/better-reflection",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Roave/BetterReflection.git",
+            "reference": "1efdfe50e9fe667dc8e2615a717cd64d08f18867"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Roave/BetterReflection/zipball/1efdfe50e9fe667dc8e2615a717cd64d08f18867",
+            "reference": "1efdfe50e9fe667dc8e2615a717cd64d08f18867",
+            "shasum": ""
+        },
+        "require": {
+            "nikic/php-parser": "^4.0.0",
+            "php": ">=7.1.0,<7.3.0",
+            "phpdocumentor/reflection-docblock": "^4.1.1",
+            "phpdocumentor/type-resolver": "^0.4.0",
+            "roave/signature": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.0.0"
+        },
+        "suggest": {
+            "composer/composer": "Required to use the ComposerSourceLocator"
+        },
+        "time": "2018-07-31T06:56:38+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Roave\\BetterReflection\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Titcumb",
+                "email": "james@asgrim.com",
+                "homepage": "https://github.com/asgrim"
+            },
+            {
+                "name": "Gary Hockin",
+                "email": "gary@roave.com",
+                "homepage": "https://github.com/geeh"
+            },
+            {
+                "name": "Jaroslav Hanslík",
+                "email": "kukulich@kukulich.cz",
+                "homepage": "https://github.com/kukulich"
+            },
+            {
+                "name": "Marco Pivetta",
+                "email": "ocramius@gmail.com",
+                "homepage": "https://ocramius.github.io/"
+            }
+        ],
+        "description": "Better Reflection - an improved code reflection API"
+    }
+]

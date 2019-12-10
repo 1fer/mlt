@@ -1,0 +1,22 @@
+{
+    "name": "andchir/videoprocessing",
+    "description": "PHP class for Melt",
+    "authors": [
+        {
+            "name": "andchir",
+            "email": "andchir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Andchir\\": "classes/"}
+    },
+    "require": {
+        "ext-simplexml": "*",
+        "ext-json": "*",
+        "ext-libxml": "*"
+    },
+    "require-dev": {
+        "apigen/apigen": "dev-master",
+        "roave/better-reflection": "dev-master"
+    }
+}
